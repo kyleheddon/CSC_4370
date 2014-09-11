@@ -1,10 +1,11 @@
 #!/usr/bin/env ruby
 
+whitelisted_file_types = %w(html ico txt)
+
 def directory_contains_file_type?(ext)
   `ls | grep .#{ext}` != ''
 end
 
-whitelisted_file_types = %w(html ico txt)
 file_types_to_copy = []
 
 whitelisted_file_types.each do |ext|

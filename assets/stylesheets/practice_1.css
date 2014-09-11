@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Helvetica, arial, sans-serif;
+}
+#top {
+  overflow: hidden;
+  background-color: #1E3C3C;
+  color: #fff;
+  background-image: url('../images/logo.png');
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+#left, #center, #right {
+  height: 500px;
+  float: left;
+}
+#left{
+  background: #633232;
+  width: 20%;
+}
+#left ul {
+  margin: 0;
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+#left li {
+  width: 87%;
+  background: #CCCCCC;
+  padding: 5px 0 5px 8px;
+  margin-bottom: 4px;
+  margin-left: 6px;
+  border-left: 10px solid #5C5C5C;
+}
+#left a {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+}
+#left a:hover {
+  text-decoration: underline;
+}
+
+#center{
+  background: #FFFFFF;
+  width:60%;
+}
+#center > .wrap {
+  padding: 10px;
+}
+#right{
+  background: #858585;
+  width: 20%;
+}
+#right > .wrap {
+  padding: 25px 15px;
+}
+.ad {
+  background: #5C5C5C;
+  padding: 14px 0;
+  margin-bottom: 40px;
+}
+.ad p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+#bottom {
+  background: #4D5D2E;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+  font-size: 14px;
+}
+.clear-fix {
+  clear: both;
+}

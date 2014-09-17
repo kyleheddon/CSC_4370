@@ -28,13 +28,17 @@ h3 {
   text-decoration: underline;
 }
 table {
-  background-color: #f0f0f0;
   color: #fff;
   margin: 20px 0;
+  border-spacing: 0;
+  border-collapse: collapse;
 }
 th {
   background-color: #003366;
   color: #f0f0f0;
+}
+h1, h2 {
+  letter-spacing: 8px;
 }
 h1, h2, thead th {
   color: #a4a400;
@@ -53,8 +57,14 @@ b {
   font-size: 20px;
 }
 th, td {
-  padding: 4px;
+  padding: 5px;
+}
+tbody td, tbody tr, thead {
+  border: 2px solid #fff;
 }
 #garbonzo_image {
   margin-bottom: 10px;
+}
+#ingredients {
+  list-style-type: square;
 }

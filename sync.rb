@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-whitelisted_file_types = %w(html ico txt)
+whitelisted_file_types = %w(html ico txt jpg png)
 
 def directory_contains_file_type?(ext)
   `ls | grep .#{ext}` != ''

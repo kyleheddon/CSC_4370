@@ -117,3 +117,8 @@ h1, h2, h3, h4, h5, h6 {
 .red {
   color: #dd4b39;
 }
+table {
+  width: 80%;
+  align: center;
+  border: 0;
+}

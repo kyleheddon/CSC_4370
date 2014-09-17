@@ -3,5 +3,15 @@ h2 {
   color: #000;
 }
 #all_the_things {
-  max-height: 150px;
+  max-height: 250px;
+  max-width: 100%;
+}
+#contents {
+  background: #f0f0f0;
+  padding: 14px;
+  border-radius: 4px;
+}
+#loud_crap {
+  text-align: center;
+  border-bottom: 1px solid #000;
 }

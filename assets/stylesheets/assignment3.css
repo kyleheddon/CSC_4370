@@ -1,0 +1,10 @@
+td {
+  width: 60px;
+  height: 60px;
+}
+td.black {
+  background: #000000;
+}
+td.red {
+  background: #dd4b39;
+}

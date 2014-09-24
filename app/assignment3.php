@@ -8,6 +8,7 @@
   </head>
   <body>
     <div id="contents" class="page-wrap">
+      <h1>Checker Board</h1>
       <table>
         <?php for($i = 0; $i < 8; $i++){ ?>
           <tr>

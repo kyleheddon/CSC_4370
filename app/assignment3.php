@@ -12,8 +12,9 @@
       <table>
         <?php for($i = 0; $i < 8; $i++){ ?>
           <tr>
-            <?php for($j = 0; $j < 8; $j++){ ?>
-              <td class="<?php echo ($i + $j)%2 == 0 ? 'red' : 'black' ?>"></td>
+            <?php for($j = 0; $j < 8; $j++){
+              $color = ($i + $j)%2 == 0 ? 'red' : 'black'; ?>
+              <td class="<?php echo $color ?>"></td>
             <?php } ?>
           </tr>
         <?php } ?>

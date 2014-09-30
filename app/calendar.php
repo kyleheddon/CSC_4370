@@ -39,12 +39,12 @@
 		<div class="container">
 			<h1>The current time and day is <?php echo getDisplayForTime($hour, $minute); ?></h1>
 			<table id="event_table">
-				<hr class="table_header">
+				<tr class="table_header">
 					<th>Time</th>
 					<th>Event</th>
 					<th>Event</th>
 					<th>Event</th>
-				</hr>
+				</tr>
 <?php for($i = 0; $i < $hours_to_show; $i++){ ?>
 				<tr class="<?php echo $i%2 == 0 ? 'even_row' : 'odd_row'; ?>">
 					<td><?php echo getDisplayForTime($hour + $i, '00'); ?></td>

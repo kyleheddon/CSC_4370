@@ -32,7 +32,7 @@
 <html>
 	<head>
 		<title>Assignment 5 - Calendar</title>
-		<link href="assets/stylesheets/calendar.css" rel="stylesheet" type="text/css" />
+		<link href="calendar.css" rel="stylesheet" type="text/css" />
 		<meta content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" name="viewport">
 	</head>
 	<body>

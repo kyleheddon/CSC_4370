@@ -21,7 +21,6 @@ h1
 {
 	border-collapse:collapse;
 	border-top:5px;
-	margin:5px 10px 10px;
 	width: 740px;
 }
 
@@ -54,13 +53,17 @@ h1
 	width:60px;
 }
 
+#event_table td {
+	border: 1px solid #000;
+}
+
 .container
 {
 	background-color:#FFF;
 	border:5px solid #000;
 	font:12px Verdana, Arial, Helvetica, sans-serif;
 	margin:20px auto;
-	padding:0;
+	padding: 5px 10px 10px;
 	width:760px;
 }
 
@@ -84,4 +87,34 @@ h1
 	margin-left:auto;
 	margin-right:auto;
 	width:100px;
+}
+.person-input {
+	display: inline-block;
+}
+.person-input .field {
+    display: block;
+    position: relative;
+    margin: 4px;
+}
+.person-input label {
+
+}
+.person-input select {
+    right: 0;
+    position: absolute;
+}
+
+.submit {
+	margin-top: 20px;
+}
+
+#people {
+	margin-top: 20px;
+}
+
+.working, .not-working {
+	border: 1px solid #000;
+}
+.working {
+	background: #dd4b39;
 }

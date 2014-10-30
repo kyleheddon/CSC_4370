@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment 6 - Part A</title>
+		<link href="assets/stylesheets/main.css" rel="stylesheet" type="text/css" />
+		<link href="assets/stylesheets/assignment6.css" rel="stylesheet" type="text/css" />
+		<meta content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" name="viewport">
+	</head>
+	<body>
+		<div id="contents" class="page-wrap">
+			<h1 id="time">The time is <span id="time_minutes">00 minutes</span> after <span id="time_hours">00 hours</span>.</h1>
+		</div>
+
+		<a href="assignment6b.html" class="next-page">Next (Part B)</a>
+	</body>
+	<script type="text/javascript">
+		function pluralize(number){
+			return number == 1 ? '' : 's';
+		}
+
+		var date = new Date();
+		var minutes = date.getMinutes();
+		var hours = date.getHours();
+
+		document.getElementById('time_minutes').innerHTML = minutes + ' minute' + pluralize(minutes);
+		document.getElementById('time_hours').innerHTML = hours + ' hour' + pluralize(hours);
+	</script>
+</html>

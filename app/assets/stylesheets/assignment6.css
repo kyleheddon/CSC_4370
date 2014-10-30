@@ -1,0 +1,70 @@
+h1 {
+	font-size: 3em;
+	text-align: center;
+	margin: 36px;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 1em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.6em;
+	margin: 0.8em;
+	text-align: center;
+}
+
+#time {
+	position: absolute;
+	top: 20%;
+	left: 0;
+	right: 0;
+	margin: 0;
+}
+
+.next-page {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 1.333em;
+}
+
+[class^="-template"] {
+	display: none;
+}
+
+#employee_wages {
+	text-align: center;
+	margin: auto;
+	font-size: 1.333em;
+}
+
+tfoot {
+	font-weight: bold;
+}
+
+tfoot .label {
+	text-align: right;
+}
+
+tfoot td {
+	padding: 8px;
+}
+
+#guess_form {
+	text-align: center;
+}
+
+#guess_form input[type="text"]{
+	font-size: 1.4em;
+}
+
+.button {
+	background: #39C;
+	color: #fff;
+	border: none;
+	padding: 12px 35px;
+	font-size: 16px;
+}
